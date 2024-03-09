@@ -1,1 +1,1 @@
-# chatwithtiti
+# Salon Management App
