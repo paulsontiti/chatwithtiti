@@ -1,8 +1,5 @@
 import 'package:chat_app/consumers/user_provider/user_dp_username.dart';
-import 'package:chat_app/screens/add_post_screen.dart';
-import 'package:chat_app/screens/feed_screen.dart';
-import 'package:chat_app/screens/profile_screen.dart';
-import 'package:chat_app/screens/search_screen.dart';
+
 import 'package:chat_app/utils/colors.dart';
 import 'package:chat_app/utils/global.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -18,7 +15,6 @@ class WebScreenLayout extends StatefulWidget {
 class _WebSreenLayoutState extends State<WebScreenLayout> {
   final user = FirebaseAuth.instance.currentUser!;
   int _page = 0;
-  String _body = 'home';
   late PageController pageController;
 
   @override

@@ -108,7 +108,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     height: 64,
                   ),
                   const Text(
-                    "Chat With Titi",
+                    "BEATIFULS",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
                   )
                 ],
